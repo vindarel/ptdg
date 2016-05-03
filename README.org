@@ -1,0 +1,15 @@
+* Prompt Toolkit integration for Dogelang
+
+Improvements from the default dg prompt:
+- history
+- multiline input
+- colored prompt (and output: todo)
+- keywords completion
+- emacs or vim style
+- …
+
+See:
+
+- https://github.com/jonathanslenders/python-prompt-toolkit/
+- examples: https://github.com/jonathanslenders/python-prompt-toolkit/tree/master/examples
+- https://pyos.github.io/dg/tutorial/
