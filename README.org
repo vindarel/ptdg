@@ -10,6 +10,9 @@ Improvements from the default dg prompt:
 
 See:
 
-- https://github.com/jonathanslenders/python-prompt-toolkit/
-- examples: https://github.com/jonathanslenders/python-prompt-toolkit/tree/master/examples
-- https://pyos.github.io/dg/tutorial/
+- copy             more            the             dg            repl:
+  [[https://github.com/pyos/dg/blob/master/repl.dg][https://github.com/pyos/dg/blob/master/repl.dg]] (eval, real
+  completion and stuff)
+- [[https://github.com/jonathanslenders/python-prompt-toolkit/][https://github.com/jonathanslenders/python-prompt-toolkit/]]
+- examples: [[https://github.com/jonathanslenders/python-prompt-toolkit/tree/master/examples][https://github.com/jonathanslenders/python-prompt-toolkit/tree/master/examples]]
+- [[https://pyos.github.io/dg/tutorial/][https://pyos.github.io/dg/tutorial/]]

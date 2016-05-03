@@ -1,9 +1,14 @@
-import '/os'
+import '/dg/parse'
+import '/dg/compileast'
+
 import '/prompt_toolkit/contrib/completers/WordCompleter'
 import '/prompt_toolkit/prompt'
 import '/prompt_toolkit/history/FileHistory'
 import '/prompt_toolkit/styles/style_from_dict'
 import '/prompt_toolkit/token/Token'
+
+import '/os'
+import '/sys'
 
 example_style = style_from_dict(dict'
     # User input.
@@ -55,6 +60,10 @@ main = ->
 
             err :: EOFError =>
                 break! # Ctr-D
+
+        tree = parse cmd
+        res = eval $ compileast tree, sys.modules
+        print $ res !! 0
 
 if __name__ == '__main__' =>
    main!
